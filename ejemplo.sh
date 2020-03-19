@@ -46,5 +46,4 @@ case $opcion in
      *)
        echo Opcion Invalida;;
 esac
-ifdown enp0s3
-ifup enp0s3
+/etc/init.d/networking restart
