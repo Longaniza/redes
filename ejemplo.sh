@@ -26,7 +26,7 @@ estatico () {
 estatico2 () { 
   sed -i 's/dhcp/static/' $path
   delete
-  echo "  address 192.168.100.25/24" >> $path
+  echo "  address 192.168.100.34/24" >> $path
   echo "gateway 192.168.100.1" >> $path
   echo "dns-nameservers 8.8.8.8" >> $path
 }
